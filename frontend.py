@@ -30,3 +30,13 @@ def from_num_flower(x):
 prettier_pred = from_num_flower(response['flower'])
 
 st.write('The flower belongs to class', str(prettier_pred))
+
+#note when pushing forntend file:
+# 1 cd package_folder
+# 2 git init
+# 3 gh repo create -> follow instructions
+# 4 git add commit and push
+
+# if push not working:
+# git remote add origin SSH_url (find it in github)
+# check with: git remote -v
